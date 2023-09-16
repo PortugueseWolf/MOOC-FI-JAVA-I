@@ -10,13 +10,10 @@ Explains JAVA boilerplate
 
 Print "Ada Lovelace"
 
-## Printing
+## Printing in JAVA
 
-To print in JAVA
-
+Prints a sentence continuosly:
 `System.out.print();`
-
-Wich will print the sentence continuosly
 
 `System.out.println();`
 
