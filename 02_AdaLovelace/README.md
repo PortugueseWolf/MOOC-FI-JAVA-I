@@ -15,10 +15,13 @@ Print "Ada Lovelace"
 To print in JAVA
 
 `System.out.print();`
+
 Wich will print the sentence continuosly
 
 `System.out.println();`
+
 Which will print in a new line
 
 In JAVA to print text, it needs to be surronded by "" like so
+
 `System.out.print("this is the text");`
