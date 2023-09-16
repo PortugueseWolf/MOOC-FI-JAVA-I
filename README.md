@@ -3,9 +3,9 @@
 
 A repo of my answers to the [MOOC FI JAVA PART 1](https://java-programming.mooc.fi/part-1)
 
-This is a work in progress and the answers won't be pretty or the best and optimized
+This is a work in progress and the answers won't be pretty or the best or optimized
 
-I'm also using this oportunity to lear how to use git
+I'm also using this oportunity to learn how to use Git and GitHub
 
 ## Environment
 
