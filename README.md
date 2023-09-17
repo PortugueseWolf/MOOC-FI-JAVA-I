@@ -23,4 +23,6 @@ This is kind of a personal log, since in each exercise I'll include my notes and
 
 If you see anything just plain wrong, feel free to let me know
 
-Whish Me Luck
+---
+
+Whish me Luck

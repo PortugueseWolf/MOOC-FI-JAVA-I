@@ -11,13 +11,10 @@ Explains JAVA boilerplate
 
 Print "Ada Lovelace"
 
-## Printing in JAVA
+## Expressions used
 
 Print a sentence continuosly:
 `System.out.print();`
 
 Print a new line
 `System.out.println();`
-
-To print text, it needs to be surronded by "" like so:
-`System.out.print("this is the text");`

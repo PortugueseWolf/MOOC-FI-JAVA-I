@@ -5,10 +5,8 @@ Explain printing in multiple lines
 
 ## Exercise
 
-Print "Once upon a time there was a program", but in three lines like so:
+Print "Once upon a time there was a program", but in three lines
 
-Once upon a time
+## Expressions used
 
-there was
-
-a program
+Print: `System.out.println();`

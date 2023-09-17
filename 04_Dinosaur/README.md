@@ -7,10 +7,8 @@ Typing just "sout" on the IDE then using the tab key will output `System.out.pri
 
 ## Exercise
 
-Print using "sout" shorthand:
+Print using "sout" shorthand: "Once upon a time there was a dinosaur" in three seperate lines
 
-Once upon a time
+## Expressions used
 
-there was
-
-a dinosaur
+Print: `System.out.println();`
