@@ -1,14 +1,4 @@
 
 # Dinosaur
 
-Same as the previous exercise but emphasizes the use of the "sout" shorthand
-
-Typing just "sout" on the IDE then using the tab key will output `System.out.println();`
-
-## Exercise
-
-Print using "sout" shorthand: "Once upon a time there was a dinosaur" in three seperate lines
-
-## Expressions used
-
-Print: `System.out.println();`
+Edit the program so that it will print the following text. Use the "sout"-shorthand for writing the print commands.
