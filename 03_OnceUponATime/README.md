@@ -1,4 +1,12 @@
 
 # OnceUponATime
 
-Modify the program so that it will print the following text. Use three `System.out.println();` -commands for printing
+Explain printing in multiple lines
+
+## Exercise
+
+Print "Once upon a time there was a program", but in three lines
+
+## Expressions used
+
+Print: `System.out.println();`
