@@ -16,7 +16,7 @@ import java.util.Scanner;
             int points = Integer.valueOf(scanner.nextLine());
 
             // Check with an if statement where the points provided fit (Check README.md)
-            if (points > 0) {
+            if (points < 0) {
                 // Impossible
                 System.out.println("impossible!");
                 
