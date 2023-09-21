@@ -1,5 +1,5 @@
 
-# MOOC FI JAVA Part 1
+# MOOC FI JAVA I
 
 A repo of my answers to the [MOOC FI JAVA PART 1](https://java-programming.mooc.fi/part-1)
 
