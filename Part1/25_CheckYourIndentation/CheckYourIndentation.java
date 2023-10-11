@@ -14,12 +14,14 @@ public class CheckYourIndentation {
 
         int second = Integer.valueOf(scanner.nextLine());
 
-        if (first == second) { System.out.println("Same!"); }
-            else if (first > second) { System.out.println("The first was larger than the second!"); }
-        else {
-        System.out.println("The second was larger than the first!");
+        if (first == second) {
+            System.out.println("Same!"); 
+        } else if (first > second) {
+            System.out.println("The first was larger than the second!"); 
+        } else {
+            System.out.println("The second was larger than the first!");
         }
-
+        
         scanner.close();
     }
 }

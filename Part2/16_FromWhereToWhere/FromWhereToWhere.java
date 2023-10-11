@@ -24,7 +24,7 @@ public class FromWhereToWhere {
         scanner.close();
         
         // Check if start point is smaller than end point to start the loop
-        if (startPoint < endPoint) {
+        if (startPoint <= endPoint) {
             // Loop
             while (startPoint <= endPoint) {
                 System.out.println(startPoint);

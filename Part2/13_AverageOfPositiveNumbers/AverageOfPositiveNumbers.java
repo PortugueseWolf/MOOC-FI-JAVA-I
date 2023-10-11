@@ -17,7 +17,7 @@ public class AverageOfPositiveNumbers {
 
         // Loop until 0 is given
         while (true) {
-            // Declare the user input as an Integer
+            // Declare user input as an Integer
             int number = Integer.valueOf(scanner.nextLine());
 
             // check if end condition was given and positive numbers were given
@@ -33,6 +33,10 @@ public class AverageOfPositiveNumbers {
             } else if (number == 0){
                 // Print that the program can't calculate
                 System.out.println("Cannot calculate the average");
+                
+                // End Loop
+                break;
+
             } else if (number > 0) {
                 // Count
                 count ++;

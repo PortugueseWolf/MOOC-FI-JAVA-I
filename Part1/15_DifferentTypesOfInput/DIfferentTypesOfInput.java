@@ -2,7 +2,7 @@
 // Import scanner
 import java.util.Scanner;
 
-public class DIfferentTypesOfInput {
+public class DifferentTypesOfInput {
     
     public static void main (String[] args) {
 

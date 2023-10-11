@@ -30,7 +30,7 @@ public class SimpleCalculator {
         // Print results
         System.out.println(firstNumber + " + " + secondNumber + " = " + sum);
         System.out.println(firstNumber + " - " + secondNumber + " = " + difference);
-        System.out.println(firstNumber + " + " + secondNumber + " = " + product);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + product);
         System.out.println(firstNumber + " / " + secondNumber + " = " + quocient);
 
         // Close scanner

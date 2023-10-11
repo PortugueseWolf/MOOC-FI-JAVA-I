@@ -16,16 +16,16 @@ public class Reprint {
         // Close scanner
         scanner.close();
 
-        // Invoke method
-        printText(number);
+        // Loop until number achieved
+        for (int i = 0; i < number; i++) {
+            // Invoke method
+            printText();
+        }
     }
 
-    public static void printText (int number) {
-        // Loop for the number of times given
-        for (int i = 0; i < number; i++) {
-            // Print
-            System.out.println("In a hole in the ground there lived  a method");
-        }
+    public static void printText () {
+        // Print
+        System.out.println("In a hole in the ground there lived a method");
     }
     
 }

@@ -17,10 +17,9 @@ public class BooleanInput {
         boolean input = Boolean.valueOf(scanner.nextLine());
 
         // Print reply
-        System.out.println("You wrote " + input);
+        System.out.println("True or false? " + input);
 
         // Close scanner
         scanner.close();
-    
     }
 }

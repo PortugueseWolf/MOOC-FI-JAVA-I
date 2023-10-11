@@ -27,7 +27,7 @@ public class ComparingNumbers {
             System.out.println(firstNumber + " is greater than " + secondNumber + ".");
         } else {
             // Print second bigger than first
-            System.out.println(secondNumber + " is greater than " + firstNumber + ".");
+            System.out.println(firstNumber + " is smaller than " + secondNumber + ".");
         }
     }
 }
