@@ -1,8 +1,8 @@
 
-// Import Scanner
-import java.util.ArrayList;
-import java.util.Scanner;
 // Import ArrayList
+import java.util.ArrayList;
+
+// Import Scanner
 import java.util.Scanner;
 
 public class ThirdElement {
