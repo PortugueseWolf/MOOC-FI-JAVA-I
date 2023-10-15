@@ -18,7 +18,10 @@ public class GreatestInList {
 
             // Check if -1 was given
             if (input == -1) {
-                // end loop
+                // Close scanner
+                scanner.close();
+
+                // End loop
                 break;
             }
             // add input to the list
