@@ -1,5 +1,5 @@
 {
     "files.autoSave": "afterDelay",
     "editor.fontSize": 20,
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": false
 }
