@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Squared",
+            "request": "launch",
+            "mainClass": "Squared",
+            "projectName": "MOOC-FI-JAVA-I_3f163eec"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
