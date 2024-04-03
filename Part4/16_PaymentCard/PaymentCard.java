@@ -10,13 +10,13 @@ public class PaymentCard {
     }
 
     public void eatAffordably () {
-        if (this.balance > 2.6) {
+        if (this.balance >= 2.6) {
             this.balance -= 2.6;
         }
     }
 
     public void eatHeartily () {
-        if (this.balance > 4.6) {
+        if (this.balance >= 4.6) {
             this.balance -= 4.6;
         }
     }
