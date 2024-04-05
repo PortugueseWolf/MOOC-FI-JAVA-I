@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintingASpecifiedFile",
+            "request": "launch",
+            "mainClass": "PrintingASpecifiedFile",
+            "projectName": "MOOC-FI-JAVA-I_3f163eec"
+        },
+        {
+            "type": "java",
+            "name": "IsItInTheFile",
+            "request": "launch",
+            "mainClass": "IsItInTheFile",
+            "projectName": "MOOC-FI-JAVA-I_3f163eec"
+        },
+        {
+            "type": "java",
             "name": "Cubes",
             "request": "launch",
             "mainClass": "Cubes",
