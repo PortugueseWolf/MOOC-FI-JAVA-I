@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SportStatistics",
+            "request": "launch",
+            "mainClass": "SportStatistics",
+            "projectName": "MOOC-FI-JAVA-I_3f163eec"
+        },
+        {
+            "type": "java",
+            "name": "StoringRecords",
+            "request": "launch",
+            "mainClass": "StoringRecords",
+            "projectName": "MOOC-FI-JAVA-I_3f163eec"
+        },
+        {
+            "type": "java",
             "name": "PrintingASpecifiedFile",
             "request": "launch",
             "mainClass": "PrintingASpecifiedFile",
