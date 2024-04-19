@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LiquidContainers2",
+            "request": "launch",
+            "mainClass": "liquidcontainerstwo.LiquidContainers2",
+            "projectName": "liquidcontainerstwo"
+        },
+        {
+            "type": "java",
             "name": "LiquidContainers",
             "request": "launch",
             "mainClass": "liquidcontainers.LiquidContainers",
