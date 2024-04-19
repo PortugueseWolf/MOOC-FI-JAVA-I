@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "todolist.Main",
+            "projectName": "todolist"
+        },
+        {
+            "type": "java",
             "name": "LiquidContainers2",
             "request": "launch",
             "mainClass": "liquidcontainerstwo.LiquidContainers2",
