@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageOfPositiveNumbers",
+            "request": "launch",
+            "mainClass": "averageofpositivenumbers.AverageOfPositiveNumbers",
+            "projectName": "averageofpositivenumbers"
+        },
+        {
+            "type": "java",
+            "name": "Cubes",
+            "request": "launch",
+            "mainClass": "cubes.Cubes",
+            "projectName": "cubes"
+        },
+        {
+            "type": "java",
             "name": "MainProgram",
             "request": "launch",
             "mainClass": "MainProgram",
