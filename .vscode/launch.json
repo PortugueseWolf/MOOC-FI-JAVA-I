@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LiquidContainers",
+            "request": "launch",
+            "mainClass": "liquidcontainers.LiquidContainers",
+            "projectName": "liquidcontainers"
+        },
+        {
+            "type": "java",
             "name": "AverageOfPositiveNumbers",
             "request": "launch",
             "mainClass": "averageofpositivenumbers.AverageOfPositiveNumbers",
