@@ -1,7 +1,7 @@
 
-# MOOC FI JAVA I
+# MOOC FI JAVA
 
-A repo of my answers to the [MOOC FI JAVA PART 1](https://java-programming.mooc.fi/part-1)
+A repo of my answers to the [MOOC FI JAVA](https://java-programming.mooc.fi/)
 
 This is a work in progress and the answers won't be pretty or the best or optimized
 
