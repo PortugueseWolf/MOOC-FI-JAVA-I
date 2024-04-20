@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "abbreviations.Main",
+            "projectName": "abbreviations"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "todolist.Main",
             "projectName": "todolist"
         },
