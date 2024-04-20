@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "printanotherhashmap.Program",
+            "projectName": "printanotherhashmap"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "printhashmap.Program",
             "projectName": "printhashmap"
         },
