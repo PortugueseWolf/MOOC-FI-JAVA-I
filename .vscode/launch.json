@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "personandsubclasses.Main",
+            "projectName": "personandsubclasses"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "abc.Main",
             "projectName": "abc"
         },
