@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "abc.Main",
+            "projectName": "abc"
+        },
+        {
+            "type": "java",
             "name": "Program",
             "request": "launch",
             "mainClass": "dictionary.Program",
