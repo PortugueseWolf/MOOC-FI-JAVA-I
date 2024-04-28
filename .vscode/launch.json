@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "dictionary.Program",
+            "projectName": "dictionary"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "vehicleregistry.Main",
+            "projectName": "vehicleregistry"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "printanotherhashmap.Program",
             "projectName": "printanotherhashmap"
         },
