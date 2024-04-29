@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "warehousing.Main",
+            "projectName": "warehousing-warehousing"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "personandsubclasses.Main",
             "projectName": "personandsubclasses"
         },
