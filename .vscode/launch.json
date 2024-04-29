@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "differentkindsofboxes.Main",
+            "projectName": "differentkindsofboxes-differentkindsofboxes"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "warehousing.Main",
             "projectName": "warehousing-warehousing"
         },
