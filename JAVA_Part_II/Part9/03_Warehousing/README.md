@@ -115,3 +115,78 @@ public String history() returns the product history like this [0.0, 119.2, 21.2]
 NB in this initial version the history is not yet working properly; currently it only remembers the initial balance.
 
 Usage example:
+
+```java
+// the usual:
+ProductWarehouseWithHistory juice = new ProductWarehouseWithHistory("Juice", 1000.0, 1000.0);
+juice.takeFromWarehouse(11.3);
+System.out.println(juice.getName()); // Juice
+juice.addToWarehouse(1.0);
+System.out.println(juice);           // Juice: balance = 989.7, space left 10.3
+
+// etc
+
+// however, history() still doesn't work properly:
+System.out.println(juice.history()); // [1000.0]
+// so we only get the initial state of the history set by the constructor...
+```
+
+```markdown
+Juice
+Juice: balance = 989.7, space left 10.299999999999955
+[1000.0]
+```
+
+## Part 6 - Product warehouse with history, step 2
+
+It's time to make history! The first version didn't know anything but the initial state of the history. Expand the class with the following methods
+
+public void addToWarehouse(double amount) works just like the method in the Warehouse class, but we also record the changed state to the history. NB: the value recorded in the history should be the warehouse's balance after adding, not the amount added!
+public double takeFromWarehouse(double amount) works just like the method in the Warehouse class, but we also record the changed state to the history. NB: the value recorded in the history should be the warehouse's balance after removing, not the amount removed!
+Usage example:
+
+```java
+// the usual:
+ProductWarehouseWithHistory juice = new ProductWarehouseWithHistory("Juice", 1000.0, 1000.0);
+juice.takeFromWarehouse(11.3);
+System.out.println(juice.getName()); // Juice
+juice.addToWarehouse(1.0);
+System.out.println(juice);           // Juice: balance = 989.7, space left 10.3
+
+// etc
+
+// and now we have the history:
+System.out.println(juice.history()); // [1000.0, 988.7, 989.7]
+```
+
+```markdown
+Juice
+Juice: balance = 989.7, space left 10.299999999999955
+[1000.0, 988.7, 989.7]
+```
+
+Remember how an overriding method can take advantage of the overridden method!
+
+## Part 7 - Product warehouse with history, step 3
+
+Expand the class with the method
+
+public void printAnalysis(), which prints history related information for the product in the way presented in the example.
+Usage example:
+
+```java
+ProductWarehouseWithHistory juice = new ProductWarehouseWithHistory("Juice", 1000.0, 1000.0);
+juice.takeFromWarehouse(11.3);
+juice.addToWarehouse(1.0);
+//System.out.println(juice.history()); // [1000.0, 988.7, 989.7]
+
+juice.printAnalysis();
+```
+
+```markdown
+Product: Juice
+History: [1000.0, 988.7, 989.7]
+Largest amount of product: 1000.0
+Smallest amount of product: 988.7
+Average: 992.8
+```
