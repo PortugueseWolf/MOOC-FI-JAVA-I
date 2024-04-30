@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "interfaceinabox.Main",
+            "projectName": "interfaceinabox-interfaceinabox"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "differentkindsofboxes.Main",
             "projectName": "differentkindsofboxes-differentkindsofboxes"
         },
