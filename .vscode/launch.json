@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainProgram",
+            "request": "launch",
+            "mainClass": "herd.MainProgram",
+            "projectName": "herd"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "onlineshop.Main",
