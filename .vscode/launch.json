@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PositiveNumbers",
+            "request": "launch",
+            "mainClass": "positivenumbers.PositiveNumbers",
+            "projectName": "positivenumbers"
+        },
+        {
+            "type": "java",
             "name": "AverageOfSelectedNumbers",
             "request": "launch",
             "mainClass": "averageofslectednumbers.AverageOfSelectedNumbers",
