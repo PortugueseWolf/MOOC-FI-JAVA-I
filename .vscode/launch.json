@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniqueLastNames",
+            "request": "launch",
+            "mainClass": "uniquelastnames.UniqueLastNames",
+            "projectName": "uniquelastnames"
+        },
+        {
+            "type": "java",
             "name": "LimitedNumbers",
             "request": "launch",
             "mainClass": "limitednumbers.LimitedNumbers",
