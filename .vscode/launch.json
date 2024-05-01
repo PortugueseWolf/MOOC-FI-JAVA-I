@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageOfSelectedNumbers",
+            "request": "launch",
+            "mainClass": "averageofslectednumbers.AverageOfSelectedNumbers",
+            "projectName": "averageofselectednumbers"
+        },
+        {
+            "type": "java",
             "name": "AverageOfNumbers",
             "request": "launch",
             "mainClass": "averageofnumbers.AverageOfNumbers",
