@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "animals.Main",
+            "projectName": "animals"
+        },
+        {
+            "type": "java",
             "name": "MainProgram",
             "request": "launch",
             "mainClass": "herd.MainProgram",
