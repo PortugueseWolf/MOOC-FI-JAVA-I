@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintingUserInput",
+            "request": "launch",
+            "mainClass": "printinguserinput.PrintingUserInput",
+            "projectName": "printinguseroinput"
+        },
+        {
+            "type": "java",
             "name": "Divisible",
             "request": "launch",
             "mainClass": "divisible.Divisible",
