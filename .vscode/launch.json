@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LimitedNumbers",
+            "request": "launch",
+            "mainClass": "limitednumbers.LimitedNumbers",
+            "projectName": "limitednumbers"
+        },
+        {
+            "type": "java",
             "name": "PrintingUserInput",
             "request": "launch",
             "mainClass": "printinguserinput.PrintingUserInput",
