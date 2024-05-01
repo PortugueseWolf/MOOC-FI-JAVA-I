@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Divisible",
+            "request": "launch",
+            "mainClass": "divisible.Divisible",
+            "projectName": "divisible"
+        },
+        {
+            "type": "java",
             "name": "PositiveNumbers",
             "request": "launch",
             "mainClass": "positivenumbers.PositiveNumbers",
