@@ -30,12 +30,8 @@ public class Suitcase {
     }
 
     public void printItems() {
-        int indeksi = 0;
-        while (indeksi < this.Items.size()) {
-        Item t = this.Items.get(indeksi);
-        System.out.println(t);
-        indeksi++;
-        }
+        Items.stream()
+            .forEach(printer -> System.out.println(printer));
     }
 
     public Item heaviestItem() {
@@ -43,7 +39,6 @@ public class Suitcase {
             return null;
         }
 
-        // Tutustumme järjestämiseen hieman myöhemmin kurssilla
         return this.Items.stream().max((t1, t2) -> t1.getWeight() - t2.getWeight()).get();
     }
 

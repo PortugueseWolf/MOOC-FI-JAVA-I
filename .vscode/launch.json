@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "weighting.Main",
+            "projectName": "weighting"
+        },
+        {
+            "type": "java",
             "name": "UniqueLastNames",
             "request": "launch",
             "mainClass": "uniquelastnames.UniqueLastNames",
