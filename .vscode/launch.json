@@ -8,6 +8,13 @@
             "type": "java",
             "name": "MainProgram",
             "request": "launch",
+            "mainClass": "regular.MainProgram",
+            "projectName": "expressions"
+        },
+        {
+            "type": "java",
+            "name": "MainProgram",
+            "request": "launch",
             "mainClass": "literature.MainProgram",
             "projectName": "literature"
         },
