@@ -8,6 +8,13 @@
             "type": "java",
             "name": "MainProgram",
             "request": "launch",
+            "mainClass": "enumanditerator.MainProgram",
+            "projectName": "enumanditerator"
+        },
+        {
+            "type": "java",
+            "name": "MainProgram",
+            "request": "launch",
             "mainClass": "regular.MainProgram",
             "projectName": "expressions"
         },
