@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "sortthemcards.Main",
+            "projectName": "sortthemcards"
+        },
+        {
+            "type": "java",
             "name": "MainProgram",
             "request": "launch",
             "mainClass": "enumanditerator.MainProgram",
