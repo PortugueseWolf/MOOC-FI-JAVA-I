@@ -5,7 +5,4 @@ In the class diagram below, the classes Show and Ticket and their connection are
 
 Implement the classes in the diagram in the exercise base.
 
-| Show |   | Ticket |
-| --- | --- | --- |
-| - movie: String | <----* | - seat: int |
-| - time: String |   | - code: int |
+![Class Diagram](diagram.drawio.svg)

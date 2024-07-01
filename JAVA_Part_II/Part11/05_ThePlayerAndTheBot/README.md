@@ -2,8 +2,5 @@
 # The player and the bot
 
 The classes Player and Bot and the connection between them are depicted in the class diagram below. Implement these classes in the exercise.
-| Player | | Bot |
-| --- | --- | --- |
-| -name: String | <--- | |
-| +play(): void | | +play: void |
-| +printName(): void | | +addMove(move: String): void |
+
+![Class Diagram](diagram.drawio.svg)
