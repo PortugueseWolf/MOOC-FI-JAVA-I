@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "FlightControl.Main",
+            "projectName": "flightcontrol"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "FlightControl.App",
+            "projectName": "flightcontrol"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "mooc.Main",
             "projectName": "firstpackages"
         },
