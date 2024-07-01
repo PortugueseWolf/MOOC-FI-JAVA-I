@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "mooc.Main",
+            "projectName": "firstpackages"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "sortthemcards.Main",
             "projectName": "sortthemcards"
         },
